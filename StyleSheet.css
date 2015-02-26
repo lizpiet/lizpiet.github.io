@@ -1,0 +1,166 @@
+img {
+padding-left: 235px;
+margin-top: -507px;
+}
+
+.header h1 {
+font-family: georgia;
+font-weight: bold;
+font-style: italic;
+font-size: 33px;
+color:#067F93;
+display:block;
+margin-top:30px;
+padding-left:60px;
+	
+}
+
+a {
+color: #010327;
+font-style:italic;
+font-weight: bold;
+text-decoration: none;
+}
+
+.header p {
+color: #DDDBDC;
+font-family: georgia;
+font-weight: bold;
+font-style: italic;
+font-size:14px;
+margin-top: -15px;
+padding-left:60px;
+line-height: 18px;
+}
+
+.experience {
+padding-left: 300px;
+
+}
+.experience h2 {
+font-family: monospace;
+font-weight: lighter;
+font-size:23px;
+color:#4b4343;
+margin-top: -89px;
+letter-spacing: 12px;
+}
+
+
+h3 {
+font-family: georgia;
+font-size: 18px;
+font-weight: bold;
+font-style: italic;
+color: #010327;
+margin-top: -5px;
+}
+
+ h4 {
+font-family: georgia;
+font-size: 16px;
+font-weight: bold;
+font-style: italic;
+color: #067F93;
+margin-top: -15px;
+margin-bottom: -12px;
+}
+
+.experience ul {
+font-family: tahoma;
+font-size: 14px; 
+color: #4b4343;
+padding-bottom: 4px;
+}
+
+.education {
+padding-left: 300px;
+}
+
+.education h2 {
+font-family: monospace;
+font-weight: lighter;
+font-size:23px;
+color:#4b4343;
+margin-top: 25px;
+letter-spacing: 12px;
+}
+
+.creative-skills {
+padding-left: 300px;
+}
+
+.creative-skills h2 {
+font-family: monospace;
+font-weight: lighter;
+font-size:23px;
+color:#4b4343;
+margin-top: 36px;
+letter-spacing: 12px;
+
+}
+
+.creative-skills li {
+list-style: none;
+line-height: 18px;
+}
+
+.creative-skills ul {
+font-family: tahoma;
+font-size: 14px; 
+color: #4b4343;
+display: inline-block;
+margin-top: -11px;
+padding-right: 15px;
+}
+
+.stripe {
+	background-color: #010327;
+	height: 17px;
+	width: 660px;
+	margin-top: 15px;
+}
+
+.technical-skills {
+padding-left: 300px;
+}
+
+.technical-skills li {
+list-style: none;
+line-height: 18px;
+}
+
+.technical-skills h2 {
+font-family: monospace;
+font-weight: lighter;
+font-size:23px;
+color:#4b4343;
+margin-top: 11px;
+letter-spacing: 12px;
+}
+
+.technical-skills ul {
+font-family: tahoma;
+font-size: 14px; 
+color: #4b4343;
+display: inline-block;
+margin-top: -52px;
+padding-bottom: 78px;
+padding-right: 20px;
+}
+
+.two {
+margin-left: 2px;
+}
+
+.three {
+margin-left: -12px;
+}
+
+.four {
+margin-left: 19px;
+}
+
+ ul {
+letter-spacing: .18px;
+ }
