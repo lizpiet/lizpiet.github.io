@@ -1,6 +1,7 @@
 img {
 padding-left: 235px;
 margin-top: -507px;
+opacity: 0.47;
 }
 
 .header h1 {
@@ -164,3 +165,6 @@ margin-left: 19px;
  ul {
 letter-spacing: .18px;
  }
+a:hover {
+    color: #DDDBDC;
+}
