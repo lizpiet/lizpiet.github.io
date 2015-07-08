@@ -1,52 +1,56 @@
 img {
 padding-left: 235px;
 margin-top: -507px;
-opacity: 0.47;
+opacity: 0.67;
 }
 
-.header h1 {
+header {
 font-family: georgia;
 font-weight: bold;
-font-style: italic;
-font-size: 33px;
-color:#067F93;
-display:block;
-margin-top:30px;
-padding-left:60px;
-	
+font-size: 32px;
+margin-left: 300px;
+}
+
+h1 {
+color: #067F93;
+}
+
+h1:hover {
+    color: #DDDBDC;
 }
 
 a {
-color: #010327;
+color: #067F93;
 font-style:italic;
 font-weight: bold;
 text-decoration: none;
 }
-
-.header p {
-color: #DDDBDC;
+nav li{
+display:inline-block;
+color: #808080;
 font-family: georgia;
 font-weight: bold;
 font-style: italic;
-font-size:14px;
-margin-top: -15px;
-padding-left:60px;
-line-height: 18px;
+font-size:16px;
+list-style: none;
+margin-right: 25px;
 }
 
-.experience {
+nav ul{
 padding-left: 300px;
-
+margin-top: -25px;
+padding-bottom: 115px;
 }
-.experience h2 {
+
+h2 {
 font-family: monospace;
 font-weight: lighter;
 font-size:23px;
 color:#4b4343;
 margin-top: -89px;
 letter-spacing: 12px;
+padding-left: 300px;
 }
-
 
 h3 {
 font-family: georgia;
@@ -67,27 +71,24 @@ margin-top: -15px;
 margin-bottom: -12px;
 }
 
-.experience ul {
+section ul {
 font-family: tahoma;
 font-size: 14px; 
 color: #4b4343;
 padding-bottom: 4px;
+font-weight: lighter;
 }
 
-.education {
+.education h2{
+margin-top: 25px;
 padding-left: 300px;
 }
 
-.education h2 {
-font-family: monospace;
-font-weight: lighter;
-font-size:23px;
-color:#4b4343;
-margin-top: 25px;
-letter-spacing: 12px;
+.education h3 {
+padding-left: 300px;
 }
 
-.creative-skills {
+.education h4{
 padding-left: 300px;
 }
 
@@ -98,37 +99,30 @@ font-size:23px;
 color:#4b4343;
 margin-top: 36px;
 letter-spacing: 12px;
-
 }
 
 .creative-skills li {
 list-style: none;
 line-height: 18px;
-}
-
-.creative-skills ul {
 font-family: tahoma;
+font-weight: lighter;
 font-size: 14px; 
 color: #4b4343;
-display: inline-block;
 margin-top: -11px;
-padding-right: 15px;
+padding-right: 10px;
+margin-left: 15px;
+display: inline-block;
+}
+
+.creative-skills li:first-child {
+padding-left: 244px;
 }
 
 .stripe {
-	background-color: #010327;
+	background: linear-gradient( to bottom, #067F93, #010327);
 	height: 17px;
 	width: 660px;
 	margin-top: 15px;
-}
-
-.technical-skills {
-padding-left: 300px;
-}
-
-.technical-skills li {
-list-style: none;
-line-height: 18px;
 }
 
 .technical-skills h2 {
@@ -140,31 +134,56 @@ margin-top: 11px;
 letter-spacing: 12px;
 }
 
-.technical-skills ul {
+.technical-skills li {
 font-family: tahoma;
+font-weight: lighter;
 font-size: 14px; 
 color: #4b4343;
 display: inline-block;
 margin-top: -52px;
-padding-bottom: 78px;
-padding-right: 20px;
-}
+padding-bottom: 28px;
+list-style: none;
+line-height: 18px;
+margin-left: 30px;
 
-.two {
-margin-left: 2px;
 }
-
-.three {
-margin-left: -12px;
-}
-
-.four {
-margin-left: 19px;
+.technical-skills li:first-child {
+padding-left: 229px;
 }
 
  ul {
 letter-spacing: .18px;
  }
+
 a:hover {
-    color: #DDDBDC;
+color: #DDDBDC;
+}
+
+section {
+padding-left: 300px;
+}
+
+footer li {
+display:inline-block;
+color: #DDDBDC;
+font-family: georgia;
+font-weight: bold;
+font-style: italic;
+font-size:14px;
+list-style: none;
+margin-right: 42px;
+}
+
+footer ul{
+padding-left: 300px;
+margin-top: -29px;
+margin-bottom: 150px;
+}
+
+.box {
+height: 37px;
+width: 700px;
+margin-top: 15px;
+margin-left: 280px;
+background: linear-gradient( to bottom, #067F93, #010327);
 }
